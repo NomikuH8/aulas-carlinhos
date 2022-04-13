@@ -26,6 +26,7 @@ body {
     gap: 5px;
     margin-bottom: 10px;
 }
+
 #matriz input {
     height: 50px;
     width: 50px;
@@ -33,6 +34,22 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#matriz2 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#matriz2 input {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .center {
     text-align: center;
 }
