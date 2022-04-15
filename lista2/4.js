@@ -5,7 +5,7 @@ function main() {
 
     while (cont < 15) {
         // ler a resposta do usuário
-        let input = prompt('Insira um número: (falta mais ' + (14 - cont) + ' números)')
+        let input = prompt('Insira um número: (falta mais ' + (15 - cont) + ' números)')
         // checar se a resposta do usuário possui algum
         // caracter que não seja número.
         // se input for "", ele retornará 0, então não cai
