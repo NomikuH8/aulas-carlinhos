@@ -1,5 +1,5 @@
-// senha
-let pass = '1234'
+
+let pass = '2108'
 
 function main() {
     let tries = 5
