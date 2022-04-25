@@ -1,5 +1,4 @@
 let cont = 0
-let people = []
 let over90kg = 0
 let smallHei = 0
 let mediumHei = 0
@@ -7,24 +6,21 @@ let bigHei = 0
 
 function main() {
     while (cont < 15) {
-        let input = prompt('Insira uma altura e peso: (deve ser altura e peso, e.x.: "180 83") (falta mais ' + (15 - cont) + ' números)')
-
+        let input = document.querySelector("#info-input").value
+        
         let height = input.split(' ')[0]
+        console.log(height)
         let weight = input.split(' ')[1]
-        people.push({
-            'height': height,
-            'weight': weight
-        })
-        cont++
-    }
-
-    for (let i of people) {
-        if (i['height'] < 160) smallHei++
-        else if (i['height'] <= 185) mediumHei++
+        
+        if (height < 160) smallHei++
+        else if (height <= 185) mediumHei++
         else bigHei++
-
-        if (i['weight'] >= 90)
-            over90kg++
+        
+        if (weight >= 90)
+        over90kg++
+        
+        cont++
+        break
     }
 
     document.querySelector('#people').innerHTML = `Estatura baixa: ${smallHei} / `
