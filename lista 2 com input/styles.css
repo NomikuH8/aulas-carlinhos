@@ -11,6 +11,7 @@ body {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;}
 button{
+    margin:2rem;
     background: rgb(2,0,36);
     color: white;
     border: none;
