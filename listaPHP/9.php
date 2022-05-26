@@ -93,3 +93,4 @@
     echo "$linhaProteina";
     echo "$tableFooter"
 ?>
+<a href="9.html"></a>
