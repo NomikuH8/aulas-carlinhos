@@ -19,4 +19,4 @@
     echo "Preco aumentado: $precoAumentado<br>";
 ?>
 
-<a href="7.htmp">Voltar ao gory</a>
+<a href="7.html">Voltar ao gory</a>
