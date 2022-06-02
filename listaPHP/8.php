@@ -2,11 +2,20 @@
     $fruta = $_POST['selectFruta'];
 
     switch ($fruta) {
-        case 'laranja' || 'limão' || 'abacaxi' || 'uva' || 'maracujá' || 'manga':
+        case 'laranja': 
+        case 'limão':
+        case'abacaxi': 
+        case 'uva': 
+        case 'maracujá': 
+        case 'manga':
             echo "A fruta $fruta é boa para fazer suco";
             break;
             
-        case 'banana' || 'mamão' || 'melão' ||'pêssego' || 'abacate':
+        case 'banana': 
+        case 'mamão': 
+        case 'melão':
+        case 'pêssego': 
+        case 'abacate':
             echo "A fruta $fruta é boa para fazer vitamina";
             break;        
             
